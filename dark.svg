@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Aryaveer Pratap Singh — Developer Profile</title>
+  <desc id="desc">An animated terminal-style GitHub profile banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .cursor{animation:blink 1s steps(2,end) infinite}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="18" fill="none" stroke="#334155"/>
+  <circle cx="32" cy="30" r="7" fill="#fb7185"/><circle cx="56" cy="30" r="7" fill="#fbbf24"/><circle cx="80" cy="30" r="7" fill="#34d399"/>
+  <text x="108" y="36" class="mono" font-size="16" fill="#64748b">aryaveer@github:~</text>
+  <path d="M70 95 H1130" stroke="#1e293b"/>
+  <text x="70" y="142" class="mono" font-size="22" fill="#22d3ee">aryaveer@developer</text>
+  <text x="385" y="142" class="mono" font-size="22" fill="#94a3b8">:~$ whoami</text>
+  <text x="70" y="198" class="mono" font-size="43" font-weight="700" fill="#f8fafc">Aryaveer Pratap Singh</text>
+  <text x="70" y="238" class="mono" font-size="19" fill="#94a3b8">Building practical software • Exploring AI • Solving real problems</text>
+  <text x="70" y="278" class="mono" font-size="18" fill="#a78bfa">status:</text>
+  <text x="150" y="278" class="mono" font-size="18" fill="#34d399">online</text>
+  <text x="235" y="278" class="mono cursor" font-size="18" fill="#22d3ee">█</text>
+  <circle cx="1100" cy="260" r="42" fill="none" stroke="#22d3ee" stroke-opacity=".18" stroke-width="2" class="pulse"/>
+  <circle cx="1100" cy="260" r="25" fill="none" stroke="#a78bfa" stroke-opacity=".25" stroke-width="2"/>
+</svg>
